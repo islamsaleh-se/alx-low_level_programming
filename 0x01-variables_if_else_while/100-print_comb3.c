@@ -18,6 +18,10 @@ int main(void)
 		{
 			putchar(i);
 			putchar(j);
+			if (j == 57)
+			{
+				continue;
+			}
 			putchar(44);
 			putchar(32);
 		}
