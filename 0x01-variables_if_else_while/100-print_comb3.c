@@ -4,7 +4,7 @@
 /**
  * main - Entry point
 	*
- * Description: prints all single-digit numbers separated by ,.
+ * Description: prints the alphabet in lowercase,all the letters except q and e
 	*
  * Return: Always 0 (Success)
 */
@@ -12,15 +12,15 @@ int main(void)
 {
 	int i;
 
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i <= 8; i++)
 	{
-		putchar(i);
-		if (i == 57)
+		for (int j = i + 1; j < 9; j++)
 		{
-			continue;
+			putchar(i);
+			putchar(j);
+			putchar(44);
+			putchar(32);
 		}
-		putchar(44);
-		putchar(32);
 	}
 	putchar(10);
 
