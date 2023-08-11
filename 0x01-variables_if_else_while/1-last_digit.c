@@ -7,7 +7,7 @@
 /**
  * main - Entry point
 	*
- * Description: print the number stored in the var n is positive or negative.
+ * Description: print the last digit of the number stored in the variable n.
 	*
  * Return: Always 0 (Success)
 */
