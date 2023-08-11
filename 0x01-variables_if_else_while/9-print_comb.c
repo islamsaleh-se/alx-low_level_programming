@@ -12,14 +12,17 @@ int main(void)
 {
 	int i;
 
-	putchar(48);
-
 	for (i = 49; i <= 57; i++)
 	{
+		putchar(i);
+		if (i == 57)
+		{
+			continue;
+		}
 		putchar(44);
 		putchar(32);
-		putchar(i);
 	}
+	putchar(10);
 
 	return (0);
 }
