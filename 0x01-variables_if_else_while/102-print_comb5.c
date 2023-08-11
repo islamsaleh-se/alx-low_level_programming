@@ -25,11 +25,15 @@ int main(void)
 					putchar(32);
 					putchar(k);
 					putchar(l);
+					if (i == 57 && j == 56 && k == 57 && l == 57)
+					{
+						continue;
+					}
 					putchar(44);
 					putchar(32);
 				}
-
 			}
+
 		}
 	}
 	putchar(10);
