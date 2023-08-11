@@ -7,7 +7,7 @@
 /**
  * main - Entry point
 	*
- * Description: print the number stored in the variable n is positive or negative.
+ * Description: print the number stored in the var n is positive or negative.
 	*
  * Return: Always 0 (Success)
 */
@@ -20,15 +20,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%d is positive", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("%d is negative", n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf("%d is zero", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
