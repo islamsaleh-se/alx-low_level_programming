@@ -4,7 +4,7 @@
 /**
  * main - Entry point
 	*
- * Description: prints all single digit numbers of base 10 starting from 0.
+ * Description: prints all single digit numbers of base 10 from 0 with putchar.
 	*
  * Return: Always 0 (Success)
 */
@@ -14,9 +14,9 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		printf("%d", i);
+		putchar(i);
 	}
-	printf("\n");
+	putchar(10);
 
 	return (0);
 }
